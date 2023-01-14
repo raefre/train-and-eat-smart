@@ -1,0 +1,47 @@
+.title {
+    color: crimson;
+}
+#main-title {text-align: center}
+body{
+  
+    background-image: url('./vds/cbum.jpg');
+    background-size: cover;
+}
+     nav{
+        flex: 1;
+        text-align:right ;
+        padding: 20px;
+    }
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav ul li {
+        display: inline-block;
+        margiN right: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #555;
+    }
+    .tableau-style {
+    border-collapse:collapse ;
+    min-width: 1000px;
+    width: auto;
+     box-shadow: 0 5px 50px rgba(0, 0, 0,0.15);
+     cursor: pointer;
+     margin :100px auto 
+      2px solid midnightblue; 
+    }
+    thead tr {
+    
+        color:#fff  ;
+        text-align: left;
+    }
+    th , td {
+        color: #fff;
+        padding : 15px 20px
+    }
+    tbody tr , td , th {
+        border: 1px solid #ddd ;
+    }
